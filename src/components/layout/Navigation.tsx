@@ -23,12 +23,27 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          {/* <Link to="/" className="flex items-center">
             <div className="text-2xl font-bold">
               <span className="text-primary">Ready</span>
               <span className="text-accent">ToRun</span>
             </div>
-          </Link>
+          </Link> */}
+          {/* Logo */}
+            <Link to="/" className="flex items-center space-x-2">
+              <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center">
+                <img
+                  src="/assets/images/logo.jpeg"
+                  alt="ReadyToRun Logo"
+                  className="w-8 h-8 object-contain"
+                />
+              </div>
+              <div className="text-2xl font-bold">
+              <span className="text-primary">Ready</span>
+              <span className="text-accent">ToRun</span>
+            </div>
+            </Link>
+
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
