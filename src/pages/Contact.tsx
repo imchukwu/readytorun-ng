@@ -235,7 +235,7 @@ const Contact = () => {
                         <Button variant="secondary" asChild>
                           <a href="/register">Register to Run</a>
                         </Button>
-                        <Button variant="outline" asChild className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+                        <Button variant="outline" asChild className="border-secondary text-primary hover:bg-primary-foreground hover:text-primary">
                           <a href="/get-involved">Get Involved</a>
                         </Button>
                       </div>

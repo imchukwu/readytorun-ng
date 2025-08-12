@@ -20,7 +20,7 @@ const Footer = () => {
               <Button variant="secondary" asChild>
                 <Link to="/register">Register to Run</Link>
               </Button>
-              <Button variant="outline" asChild className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+              <Button variant="outline" asChild className="border-secondary text-primary hover:bg-primary-foreground hover:text-primary">
                 <Link to="/get-involved">Volunteer</Link>
               </Button>
             </div>
@@ -61,17 +61,27 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 mt-12 pt-8">
           <div className="text-center">
             <h4 className="font-medium mb-4">Proudly Supported By</h4>
-            <div className="flex justify-center items-center space-x-8">
+            {/* <div className="flex justify-center items-center space-x-8">
               <div className="text-lg font-semibold">European Union</div>
               <div className="text-lg font-semibold">YIAGA</div>
+            </div> */}
+            {/* Logos replacing text */}
+            <div className="flex justify-center items-center space-x-8 mt-12">
+              <img src="
+
+http://googleusercontent.com/image_collection/image_retrieval/3930628397354807712_0
+" alt="European Union Logo" className="h-12" />
+              <img src="" alt="YIAGA Africa Logo" className="h-12" />
             </div>
+
+          {/* </div> */}
           </div>
         </div>
 
         {/* Copyright */}
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60">
-            © 2024 ReadyToRun Nigeria. All rights reserved.
+            © 2025 ReadyToRun Nigeria. All rights reserved.
           </p>
         </div>
       </div>

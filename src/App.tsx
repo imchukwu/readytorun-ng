@@ -7,11 +7,12 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import Register from "./pages/Register";
 import Offices from "./pages/Offices";
-import Stories from "./pages/Stories";
+// import Stories from "./pages/Stories";
 import GetInvolved from "./pages/GetInvolved";
 import Contact from "./pages/Contact";
 import Resources from "./pages/Resources";
 import NotFound from "./pages/NotFound";
+import ImpactStories from "./pages/ImpactStories";
 
 const queryClient = new QueryClient();
 
@@ -26,7 +27,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/register" element={<Register />} />
           <Route path="/offices" element={<Offices />} />
-          <Route path="/stories" element={<Stories />} />
+          <Route path="/stories" element={<ImpactStories />} />
           <Route path="/get-involved" element={<GetInvolved />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resources" element={<Resources />} />

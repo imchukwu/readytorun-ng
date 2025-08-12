@@ -22,31 +22,7 @@ const GetInvolved = () => {
       action: "Become a Volunteer",
       link: "/contact",
       variant: "secondary" as const
-    },
-    {
-      icon: Users,
-      title: "Mentor",
-      description: "Share your experience and guide young aspirants through their political journey.",
-      action: "Join as Mentor",
-      link: "/contact",
-      variant: "outline" as const
-    },
-    {
-      icon: Lightbulb,
-      title: "Share Expertise",
-      description: "Offer your professional skills in areas like communications, law, finance, or campaign strategy.",
-      action: "Offer Skills",
-      link: "/contact",
-      variant: "outline" as const
-    },
-    {
-      icon: DollarSign,
-      title: "Sponsor",
-      description: "Support the movement financially to help us reach more young leaders across Nigeria.",
-      action: "Learn More",
-      link: "/contact",
-      variant: "outline" as const
-    },
+    },    
     {
       icon: MessageSquare,
       title: "Spread the Word",
